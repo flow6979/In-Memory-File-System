@@ -84,6 +84,25 @@ We need python3 installed to execute this python program
 
 **Documentation:** Finally, I provided comprehensive project documentation via a README file. This documentation offered an overview of the file system simulator and provided guidance on how to use it effectively, contributing to its usability and accessibility.
 
+## Test Results Explanation:
+
+### Test `test_mkdir`:
+- **Outcome:** PASSED
+- **Explanation:** This test verifies the functionality of the `mkdir` method, which creates a new directory in the file system. It checks whether the directory was successfully created and if it is marked as a directory in the file system's current directory. The test passed as the directory was created, and its properties were correctly set.
+
+### Test `test_cd`:
+- **Outcome:** PASSED
+- **Explanation:** This test validates the functionality of the `cd` method, responsible for changing the current directory in the file system. It creates a directory, changes to it using `cd`, and checks if the current directory's name matches the expected name. The test passed as the current directory was successfully changed to the newly created directory.
+
+### Test `test_ls`:
+- **Outcome:** PASSED
+- **Explanation:** The `test_ls` function tests the `ls` method, which lists the contents of the current directory in the file system. After creating a directory, the test invokes `ls` and verifies if the directory is listed among the current directory's contents. The test passed as the directory was correctly listed.
+
+### Test `test_touch`:
+- **Outcome:** PASSED
+- **Explanation:** This test assesses the `touch` method's functionality, which creates a new file in the current directory of the file system. After creating a new file, the test checks if the file exists in the current directory and if it is marked as a file (not a directory). The test passed as the file was successfully created, and its properties were accurately set.
+
+These tests passed as expected because the implemented methods behaved as intended, satisfying the specified requirements and functionality.
 
 
 ## Appendix - 
