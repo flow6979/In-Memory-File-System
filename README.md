@@ -104,6 +104,9 @@ We need python3 installed to execute this python program
 
 These tests passed as expected because the implemented methods behaved as intended, satisfying the specified requirements and functionality.
 
+## Future scope - 
+- we can save the current path by ctrl - c, but we cannot start from that path right now by using something like --load.
+- I would work on this thing, any collaboration, help or suggestion is heartfully welcome.
 
 ## Appendix - 
 https://docs.rtems.org/branches/master/filesystem/in-memory.html
